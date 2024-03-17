@@ -1,0 +1,26 @@
+[versions]
+cloud = "1.8.3"
+paper = "1.20.4-R0.1-SNAPSHOT"
+paperweight = "1.5.5"
+easyarmorstands = "2.0.1"
+shadow = "8.1.1"
+joml = "1.10.5"
+adventure-api = "4.14.0"
+adventure-platform = "4.3.0"
+
+[libraries]
+cloud-annotations = { module = "cloud.commandframework:cloud-annotations", version.ref = "cloud" }
+cloud-minecraft-extras = { module = "cloud.commandframework:cloud-minecraft-extras", version.ref = "cloud" }
+cloud-paper = { module = "cloud.commandframework:cloud-paper", version.ref = "cloud" }
+easyarmorstands-api = { module = "me.m56738:easyarmorstands-api", version.ref = "easyarmorstands" }
+paperapi = { module = "io.papermc.paper:paper-api", version.ref = "paper"}
+joml = { module = "org.joml:joml", version.ref = "joml" }
+adventure-api = { module = "net.kyori:adventure-api", version.ref = "adventure-api" }
+adventure-platform-bukkit = { module = "net.kyori:adventure-platform-bukkit", version.ref = "adventure-platform" }
+adventure-text-minimessage = { module = "net.kyori:adventure-text-minimessage", version.ref = "adventure-api" }
+adventure-text-serializer-gson = { module = "net.kyori:adventure-text-serializer-gson", version.ref = "adventure-api" }
+adventure-text-serializer-legacy = { module = "net.kyori:adventure-text-serializer-legacy", version.ref = "adventure-api" }
+
+[plugins]
+paperweight-userdev = { id = "io.papermc.paperweight.userdev", version.ref = "paperweight" }
+shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }

@@ -1,0 +1,9 @@
+name: Animations
+version: '${version}'
+main: 'cloud.polars.animations.paper.Animations'
+api-version: '1.20'
+dependencies:
+  server:
+    EasyArmorStands:
+      required: false
+      load: BEFORE
