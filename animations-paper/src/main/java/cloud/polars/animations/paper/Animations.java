@@ -57,4 +57,8 @@ public class Animations extends JavaPlugin {
                         .build()
         );
     }
+
+    public static Animations getInstance() {
+        return instance;
+    }
 }
