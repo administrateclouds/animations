@@ -1,4 +1,8 @@
 package cloud.polars.animations.api.rig;
 
-public class SkeletonFactory {
+import cloud.polars.animations.api.rig.type.Skeleton;
+import org.jetbrains.annotations.NotNull;
+
+public interface SkeletonFactory {
+    @NotNull Skeleton createSkeleton();
 }
