@@ -1,4 +1,4 @@
-package cloud.polars.animations.api.bone.types;
+package cloud.polars.animations.api.bone;
 
 import cloud.polars.animations.api.bone.Bone;
 import org.bukkit.inventory.ItemStack;

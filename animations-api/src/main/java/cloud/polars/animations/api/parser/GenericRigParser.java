@@ -1,4 +1,4 @@
-package cloud.polars.animations.api.parser.impl;
+package cloud.polars.animations.api.parser;
 
 import cloud.polars.animations.api.bone.Bone;
 import cloud.polars.animations.api.parser.Parser;
@@ -7,7 +7,7 @@ import cloud.polars.animations.api.rig.type.Skeleton;
 
 import java.util.List;
 
-public class AJRigParser implements Parser {
+public class GenericRigParser implements Parser {
     @Override
     public Animation parse() {
         return null;

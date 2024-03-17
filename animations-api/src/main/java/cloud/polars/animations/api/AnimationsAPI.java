@@ -1,6 +1,6 @@
 package cloud.polars.animations.api;
 
-import cloud.polars.animations.api.parser.impl.GenericRigParser;
+import cloud.polars.animations.api.parser.GenericRigParser;
 import cloud.polars.animations.api.rig.SkeletonFactory;
 import cloud.polars.animations.api.rig.type.Skeleton;
 import org.bukkit.World;
