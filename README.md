@@ -25,7 +25,7 @@ Please note that this is currently in very early snapshot releases, so you will 
 
 #### How can I use AnimatedJava?
 
-You're likely better off reading the AnimatedJava Docs located [here](https://animated-java.dev/docs/home), you need to utilise the **JSON Exporter** in order to work with this plugin.
+You're likely better off reading the Animated Java Docs located [here](https://animated-java.dev/docs/home), you need to utilise the **JSON Exporter** in order to work with this plugin.
 
 #### How can I export my Blender Animations?
 
