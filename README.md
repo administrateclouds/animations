@@ -7,6 +7,7 @@
 Animations is a fully-featured free and open-source animation system for Minecraft Servers utilizing Resource Packs. This project is licensed under a **AGPL** license.
 
 ![alt text](https://us-east-1.tixte.net/uploads/i.itspolar.dev/javaw_IQ7XaVDNBB.gif)
+<br/>
 *Animation by CloudX, Skin by DisneyArchitect*
 
 ## Features
