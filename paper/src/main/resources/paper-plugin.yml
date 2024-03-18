@@ -1,7 +1,9 @@
-name: Animations
+name: ${name}
 version: '${version}'
+website: ${url}
+authors: [${authors}]
 main: 'cloud.polars.animations.paper.Animations'
-api-version: '1.20'
+api-version: '${paperApiVersion}'
 dependencies:
   server:
     EasyArmorStands:
