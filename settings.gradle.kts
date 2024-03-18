@@ -1,10 +1,13 @@
 rootProject.name = "Animations"
 
-include(":api")
-include(":paper")
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
-include(":adapters:provider")
-include(":adapters:nms:1_20_4_R1")
+include(":api")
+include(":core")
+
+include(":platform:spigot")
+include(":platform:spigot:adapters:provider")
+include(":platform:spigot:adapters:nms:r1_20_4_R1")
 
 
 pluginManagement {

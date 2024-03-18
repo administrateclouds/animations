@@ -1,11 +1,10 @@
-import org.gradle.accessors.dm.LibrariesForLibs
-
 plugins {
     `java-library`
     `maven-publish`
 }
 
-val libs = the<LibrariesForLibs>()
+val Project.libs: VersionCatalog
+    get() = extensions.getByType(VersionCatalogsExtension::class.java).named("libs")
 
 repositories {
     mavenCentral()
@@ -38,7 +37,7 @@ tasks {
                 "id" to properties["id"],
                 "name" to properties["pluginName"],
                 "version" to properties["version"],
-                "paperApiVersion" to parseApiVersion(libs.versions.paper.get()),
+                "spigotApiVersion" to parseApiVersion(libs.findVersion("paper").get().toString()),
                 "description" to properties["description"],
                 "url" to properties["url"],
                 "authors" to properties["authors"]

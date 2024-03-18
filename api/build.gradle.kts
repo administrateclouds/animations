@@ -1,5 +1,5 @@
 plugins {
-    id("cloud.polars.animations.java-conventions")
+    id("cloud.polars.animations.publish-conventions")
 }
 
 dependencies {

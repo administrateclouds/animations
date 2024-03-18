@@ -4,6 +4,6 @@ plugins {
 
 dependencies {
     compileOnly(libs.paper.api)
-    implementation(project(":adapters:provider"))
+    implementation(projects.platform.spigot.adapters.provider)
     paperweight.paperDevBundle("1.20.4-R0.1-SNAPSHOT")
 }

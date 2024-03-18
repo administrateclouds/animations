@@ -1,4 +1,4 @@
-package cloud.polars.animations.paper;
+package cloud.polars.animations.spigot;
 
 import cloud.commandframework.annotations.AnnotationParser;
 import cloud.commandframework.arguments.parser.StandardParameters;
@@ -14,8 +14,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.function.Function;
 import java.util.logging.Level;
 
-public class Animations extends JavaPlugin {
-    private static Animations instance;
+public class AnimationsSpigot extends JavaPlugin {
+    private static AnimationsSpigot instance;
     private BukkitAudiences audiences;
 
     private PaperCommandManager<CommandSender> commandManager;
@@ -58,7 +58,7 @@ public class Animations extends JavaPlugin {
         );
     }
 
-    public static Animations getInstance() {
+    public static AnimationsSpigot getInstance() {
         return instance;
     }
 }

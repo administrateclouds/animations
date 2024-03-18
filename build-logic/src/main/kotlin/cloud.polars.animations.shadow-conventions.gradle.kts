@@ -6,13 +6,21 @@ plugins {
 }
 
 tasks {
-    shadowJar {
+    named<Jar>("jar") {
+        archiveClassifier.set("unshaded")
+        from(project.rootProject.file("LICENSE"))
+    }
+
+    val shadowJar = named<ShadowJar>("shadowJar") {
+        archiveBaseName.set(project.name)
+        archiveVersion.set("")
         archiveClassifier.set("")
+
         // relocations here
         // relocate("tld.domain.package", "cloud.polars.animations.libs")
     }
 
-    build {
+    named("build") {
         dependsOn(shadowJar)
     }
 }
