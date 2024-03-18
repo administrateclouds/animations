@@ -5,11 +5,12 @@ import cloud.polars.animations.api.parser.Parser;
 import cloud.polars.animations.api.rig.type.Animation;
 import cloud.polars.animations.api.rig.type.Skeleton;
 
+import java.io.File;
 import java.util.List;
 
 public class AJRigParser implements Parser {
     @Override
-    public Animation parse() {
+    public Animation parse(File file) {
         return null;
     }
 

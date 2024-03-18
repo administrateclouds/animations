@@ -1,6 +1,6 @@
 package cloud.polars.animations.api;
 
-import cloud.polars.animations.api.parser.GenericRigParser;
+import cloud.polars.animations.api.parser.GenericParser;
 import cloud.polars.animations.api.rig.SkeletonFactory;
 import cloud.polars.animations.api.rig.type.Skeleton;
 import org.bukkit.World;
@@ -15,7 +15,7 @@ public interface AnimationsAPI {
     @NotNull
     SkeletonFactory createSkeletonFactory(@NotNull World world);
 
-    @NotNull GenericRigParser getParser();
+    @NotNull GenericParser getParser();
 
     final class Provider {
         private static AnimationsAPI instance;
